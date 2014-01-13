@@ -68,8 +68,8 @@ Vagrant.configure("2") do |config|
             },
             "hosts" => {
                 "entries" => {
-                    "127.0.0.1" => "localhost dev",
-                    "192.168.56.1" => "selenium.local local"
+                    "127.0.0.1" => "localhost server dev",
+                    "192.168.100.100" => "selenium.local local"
                 }
             },
             "authorization" => {
